@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+navbar-nav {
+    margin-right: 0 !important;
+}
+
+.bg-light{
+    background-color: #f4f4f4 !important;
+    padding: 10px 200px;
+}
+
+.navbar-light .navbar-brand{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.navbar-light .nav-link{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+header{
+    background-color: #f4f4f4;
+}
+
+header img {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+}
+
+.banner-title h1{
+    margin-top: 20%;
+    color: #5a5a5a;
+    font-size: 46px;
+}
+
+.banner-title p{
+    margin-bottom: 25px;
+    line-height: 24px;
+    color:#777;
+}
+
+section img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+section .item{
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 15px 0 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: -60px;
+    cursor: pointer;
+    transition: 0.4s ;
+}
+
+section .item:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+section p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+@media (max-width: 992px){
+    .bg-light{
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width:768px){
+    header img{
+        height: 300px;
+    }
+    .banner-title h1{
+        margin-top: 10px;
+    }
+    section .item{
+        box-shadow: 0 0 4px rgba(0,0,0,0.2);
+        margin-top: 20px;
+    }
+}
+

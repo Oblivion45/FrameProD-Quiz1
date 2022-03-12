@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+navbar-nav {
+    margin-right: 0 !important;
+}
+
+.bg-light{
+    background-color: #f4f4f4 !important;
+    padding: 10px 200px;
+}
+
+.navbar-light .navbar-brand{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.navbar-light .nav-link{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.container img{
+    width: 100px;
+    height: 100px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.container h1{
+    margin-left: 570px;
+    font-size: 50px;
+}
+
+.container p{
+    font-size: 30px;
+    margin-left: 400px;
+    margin-right: 100px;
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+}
